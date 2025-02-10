@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c5830b1-9f7a-468e-a9a2-d255da35b5c5" name="Changes" comment="изменила url главной страницы">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets.squarespace.com/sqs/polyfiller/1.6/modern.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets.squarespace.com/@sqs/polyfiller/1.6/modern.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets.squarespace.com/universal/scripts-compressed/10771-f5afd94d0416c1eccc93-min.en-US.js" beforeDir="false" afterPath="$PROJECT_DIR$/10771-f5afd94d0416c1eccc93-min.en-US.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www.venjamin.me/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="3c5830b1-9f7a-468e-a9a2-d255da35b5c5" name="Changes" comment="изменила url главной страницы" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1739187939597</updated>
       <workItem from="1739187940497" duration="1724000" />
-      <workItem from="1739192155814" duration="1121000" />
+      <workItem from="1739192155814" duration="1488000" />
     </task>
     <task id="LOCAL-00001" summary="изменила url главной страницы">
       <option name="closed" value="true" />
@@ -82,7 +77,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739192370113</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="изменила url главной страницы">
+      <option name="closed" value="true" />
+      <created>1739201620708</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739201620708</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
