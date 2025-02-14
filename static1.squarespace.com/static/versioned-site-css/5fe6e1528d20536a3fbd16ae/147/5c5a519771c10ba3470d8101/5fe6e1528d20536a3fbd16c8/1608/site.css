@@ -12886,24 +12886,28 @@ h1 {
 }
 
 h2 {
-    line-height: calc(var(--heading-font-line-height) * (1 + (1 - var(--heading-2-size-value))/25))
+    line-height: calc(var(--heading-font-line-height) * (1 + (1 - var(--heading-2-size-value))/25));
+    text-transform: none !important;
 }
 
 @media screen and (max-width: 767px ) and (orientation: portrait) {
     h2 {
-        font-size:calc((var(--heading-2-size-value) - 1) * calc(.012 * min(100vh, 900px)) + 1rem)
+        font-size:calc((var(--heading-2-size-value) - 1) * calc(.012 * min(100vh, 900px)) + 1rem);
+        text-transform: none !important;
     }
 }
 
 @media screen and (min-width: 768px ),screen and (max-width:calc(1770px - 1px)) and (orientation:landscape) {
     h2 {
-        font-size:calc((var(--heading-2-size-value) - 1) * 1.2vw + 1rem)
+        font-size:calc((var(--heading-2-size-value) - 1) * 1.2vw + 1rem);
+        text-transform: none !important;
     }
 }
 
 @media screen and (min-width: 1770px) {
     h2 {
-        font-size:calc(var(--heading-2-size-value) * 1rem)
+        font-size:calc(var(--heading-2-size-value) * 1rem);
+        text-transform: none !important;
     }
 }
 
@@ -17874,7 +17878,8 @@ a {
     background-repeat: no-repeat;
     background-image: linear-gradient(currentColor,currentColor),linear-gradient(currentColor,currentColor);
     background-size: 50% 1px,50% 1px;
-    background-position: 0% bottom,100% bottom
+    background-position: 0% bottom,100% bottom;
+    text-transform: none !important;
 }
 
 @keyframes underlineSlideOut {
@@ -32431,7 +32436,8 @@ h4 {
     }
 
     .sqs-block-html>.sqs-block-content>h1[style*="margin-left"],.sqs-block-html>.sqs-block-content>h2[style*="margin-left"],.sqs-block-html>.sqs-block-content>h3[style*="margin-left"],.sqs-block-html>.sqs-block-content>h4[style*="margin-left"],.sqs-block-html>.sqs-block-content>h5[style*="margin-left"],.sqs-block-html>.sqs-block-content>h6[style*="margin-left"],.sqs-block-html>.sqs-block-content>p[style*="margin-left"] {
-        margin-left: 0 !important
+        margin-left: 0 !important;
+        text-transform: none !important;
     }
 }
 

@@ -3277,7 +3277,7 @@
     --blog-alternating-side-by-side-list-title-font-font-family: var(--heading-font-font-family);
     --blog-alternating-side-by-side-list-title-font-font-style: var(--heading-font-font-style);
     --blog-alternating-side-by-side-list-title-font-font-weight: var(--heading-font-font-weight);
-    --blog-alternating-side-by-side-list-title-font-text-transform: var(--heading-font-text-transform);
+    /--blog-alternating-side-by-side-list-title-font-text-transform: var(--heading-font-text-transform);*/
     --blog-alternating-side-by-side-list-title-font-letter-spacing: var(--heading-font-letter-spacing);
     --blog-alternating-side-by-side-list-title-font-line-height: var(--heading-font-line-height);
     --blog-alternating-side-by-side-list-title-font-font-size: var(--heading-2-size);
@@ -4148,7 +4148,8 @@ a:active,a:hover {
 
 h1 {
     font-size: 2em;
-    margin: .67em 0
+    margin: .67em 0;
+    text-transform: none !important
 }
 
 abbr[title] {
@@ -9005,7 +9006,8 @@ body.sqs-lightbox-open {
 }
 
 .sqs-block-html .sqs-block-content *:not(h1):not(h2):not(h3),.sqs-block-html .sqs-html-content *:not(h1):not(h2):not(h3) {
-    word-wrap: break-word
+    word-wrap: break-word;
+    text-transform: none !important;
 }
 
 .sqs-block-html .sqs-block-content>*:first-child,.sqs-block-html .sqs-html-content>*:first-child {
@@ -9035,7 +9037,8 @@ body.sqs-lightbox-open {
     position: relative;
     left: initial;
     white-space: nowrap !important;
-    margin: 0
+    margin: 0;
+    text-transform: none !important;
 }
 
 .sqs-block-html .sqs-block-content .sqsrte-scaled-text-container>.sqsrte-scaled-text,.sqs-block-html .sqs-html-content .sqsrte-scaled-text-container>.sqsrte-scaled-text {
@@ -9057,7 +9060,8 @@ body.sqs-lightbox-open {
     margin: 0;
     padding: 0;
     line-height: 1;
-    font-size: inherit !important
+    font-size: inherit !important;
+    text-transform: none !important;
 }
 
 .sqs-block-html .sqs-block-content .sqsrte-text-highlight a:link,.sqs-block-html .sqs-html-content .sqsrte-text-highlight a:link,.sqs-block-html .sqs-block-content .sqsrte-text-highlight a:visited,.sqs-block-html .sqs-html-content .sqsrte-text-highlight a:visited,.sqs-block-html .sqs-block-content .sqsrte-text-highlight a:hover,.sqs-block-html .sqs-html-content .sqsrte-text-highlight a:hover,.sqs-block-html .sqs-block-content .sqsrte-text-highlight a:active,.sqs-block-html .sqs-html-content .sqsrte-text-highlight a:active {
@@ -11457,7 +11461,8 @@ html.sqs-modal-lightbox-open,html.sqs-modal-lightbox-open body {
 
 h1[data-rte-preserve-empty]:empty::before,h2[data-rte-preserve-empty]:empty::before,h3[data-rte-preserve-empty]:empty::before,h4[data-rte-preserve-empty]:empty::before,h5[data-rte-preserve-empty]:empty::before,h6[data-rte-preserve-empty]:empty::before,p[data-rte-preserve-empty]:empty::before {
     content: '';
-    display: inline-block
+    display: inline-block;
+    text-transform: none !important;
 }
 
 ol[data-rte-list] li {
@@ -12601,7 +12606,8 @@ body:not(.tweak-product-quick-view-lightbox-show-close-button) .sqs-product-quic
 }
 
 .image-position-right .image-title h1,.image-position-left .image-title h1,.image-position-right .image-title h2,.image-position-left .image-title h2,.image-position-right .image-title h3,.image-position-left .image-title h3,.image-position-right .image-title h4,.image-position-left .image-title h4,.image-position-right .image-title p,.image-position-left .image-title p {
-    display: inline
+    display: inline;
+    text-transform: none !important;
 }
 
 .sqs-block-image .design-layout-stack .image-card-wrapper .image-subtitle-wrapper div.image-subtitle.sqs-dynamic-text {
@@ -12613,7 +12619,8 @@ body:not(.tweak-product-quick-view-lightbox-show-close-button) .sqs-product-quic
 }
 
 h1,h2,h3,h4 {
-    margin: 2rem 0
+    margin: 2rem 0;
+    text-transform: none !important;
 }
 
 .sqsrte-large,p,.sqsrte-small {
@@ -12875,7 +12882,7 @@ h1,h2,h3,h4 {
     font-weight: var(--heading-font-font-weight);
     line-height: var(--heading-font-line-height);
     letter-spacing: var(--heading-font-letter-spacing);
-    text-transform: var(--heading-font-text-transform)
+    text-transform: none !important
 }
 
 @media screen and (max-width: 767px ) and (orientation: portrait) {
@@ -12941,24 +12948,28 @@ h1 {
 }
 
 h2 {
-    line-height: calc(var(--heading-font-line-height) * (1 + (1 - var(--heading-2-size-value))/25))
+    line-height: calc(var(--heading-font-line-height) * (1 + (1 - var(--heading-2-size-value))/25));
+    text-transform: none !important
 }
 
 @media screen and (max-width: 767px ) and (orientation: portrait) {
     h2 {
-        font-size:calc((var(--heading-2-size-value) - 1) * calc(.012 * min(100vh, 900px)) + 1rem)
+        font-size:calc((var(--heading-2-size-value) - 1) * calc(.012 * min(100vh, 900px)) + 1rem);
+        text-transform: none !important
     }
 }
 
 @media screen and (min-width: 768px ),screen and (max-width:calc(1770px - 1px)) and (orientation:landscape) {
     h2 {
-        font-size:calc((var(--heading-2-size-value) - 1) * 1.2vw + 1rem)
+        font-size:calc((var(--heading-2-size-value) - 1) * 1.2vw + 1rem);
+        text-transform: none !important
     }
 }
 
 @media screen and (min-width: 1770px) {
     h2 {
-        font-size:calc(var(--heading-2-size-value) * 1rem)
+        font-size:calc(var(--heading-2-size-value) * 1rem);
+        text-transform: none !important
     }
 }
 
@@ -17930,7 +17941,8 @@ a {
     background-repeat: no-repeat;
     background-image: linear-gradient(currentColor,currentColor),linear-gradient(currentColor,currentColor);
     background-size: 50% 1px,50% 1px;
-    background-position: 0% bottom,100% bottom
+    background-position: 0% bottom,100% bottom;
+    text-transform: none !important
 }
 
 @keyframes underlineSlideOut {
@@ -32487,7 +32499,8 @@ h4 {
     }
 
     .sqs-block-html>.sqs-block-content>h1[style*="margin-left"],.sqs-block-html>.sqs-block-content>h2[style*="margin-left"],.sqs-block-html>.sqs-block-content>h3[style*="margin-left"],.sqs-block-html>.sqs-block-content>h4[style*="margin-left"],.sqs-block-html>.sqs-block-content>h5[style*="margin-left"],.sqs-block-html>.sqs-block-content>h6[style*="margin-left"],.sqs-block-html>.sqs-block-content>p[style*="margin-left"] {
-        margin-left: 0 !important
+        margin-left: 0 !important;
+        text-transform: none !important
     }
 }
 
