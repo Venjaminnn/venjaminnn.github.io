@@ -12850,7 +12850,7 @@ html,body {
     font-weight: var(--body-font-font-weight);
     line-height: var(--body-font-line-height);
     letter-spacing: var(--body-font-letter-spacing);
-    text-transform: var(--body-font-text-transform);
+    text-transform: none !important;
     -webkit-font-smoothing: antialiased
 }
 
