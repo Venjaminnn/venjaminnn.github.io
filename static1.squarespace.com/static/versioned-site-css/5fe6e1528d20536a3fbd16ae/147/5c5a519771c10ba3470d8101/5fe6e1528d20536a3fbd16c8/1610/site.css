@@ -3236,7 +3236,6 @@
     --heading-font-font-family: pragmatica-extended;
     --heading-font-font-style: normal;
     --heading-font-font-weight: 700;
-    --heading-font-text-transform: capitalize;
     --heading-font-letter-spacing: .01em;
     --heading-font-line-height: 1.2em;
     --body-font-font-family: "Helvetica Neue",Arial,sans-serif;
@@ -20063,7 +20062,6 @@ img[data-src]:not([src]):not([srcset]) {
 
 .products.collection-content-wrapper .category-filter-item {
     padding: 0 1.5vw;
-    text-transform: capitalize
 }
 
 .products.collection-content-wrapper .category-filter-item:first-child {
@@ -32746,7 +32744,6 @@ body:not(.sqs-edit-mode) .blog-item-preview-chip-container.visitor-hidden {
 
 .blog-item-wrapper .blog-item-content-paywall .blog-item-content-paywall-notice .blog-item-content-paywall-notice-link {
     display: block;
-    text-transform: capitalize
 }
 
 .blog-item-wrapper article.entry {
@@ -35689,7 +35686,6 @@ body:not(.sqs-edit-mode) .blog-item-preview-chip-container.visitor-hidden {
 
 .sold-out .product-details .product-mark.sold-out {
     display: block;
-    text-transform: capitalize;
     font-weight: normal
 }
 
@@ -40744,7 +40740,6 @@ body:not(.sqs-edit-mode) .blog-item-preview-chip-container.visitor-hidden {
 
 .product-list .category-filter-item {
     padding: 0 1.5vw;
-    text-transform: capitalize
 }
 
 .product-list .category-filter-item:first-child {
