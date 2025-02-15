@@ -4079,7 +4079,7 @@
   }
   .product-list .category-filter-item {
     padding: 0 1.5vw;
-    /*text-transform: capitalize;*/
+    text-transform: none !important
   }
   .product-list .category-filter-item:first-child {
     padding-left: 0;
@@ -4370,7 +4370,7 @@
   @media screen and (max-width:  575px ) {
     .product-list .nested-category-breadcrumb {
       text-align: left;
-      text-transform: uppercase;
+      text-transform: unone !important;
       opacity: 0.3;
     }
   }
@@ -4513,7 +4513,7 @@
   .product-list-items .product-list-item-link .product-list-item-status {
     color: var(--tweak-product-grid-text-below-list-status-color);
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: none !important;
   }
   .product-list-items .product-list-item-link .product-list-item-status .sale-status {
     color: var(--tweak-product-grid-text-below-list-sale-price-color);
@@ -4861,7 +4861,7 @@
   .product-detail .product-meta .product-status {
     color: var(--tweak-product-basic-item-description-color);
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: none !important;
   }
   .product-detail .product-meta .product-description {
     color: var(--tweak-product-basic-item-description-color);
@@ -5582,7 +5582,7 @@
   }
   .afterpay-modal h3 {
     color: black;
-    text-transform: none;
+    text-transform: none !important
   }
   .afterpay-modal .afterpay-modal-close-button {
     background-color: transparent;
