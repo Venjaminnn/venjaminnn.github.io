@@ -12757,7 +12757,7 @@ h1,h2,h3,h4 {
     font-weight: var(--heading-font-font-weight);
     line-height: var(--heading-font-line-height);
     letter-spacing: var(--heading-font-letter-spacing);
-    /*text-transform: var(--heading-font-text-transform)*/
+    text-transform: none !important
 }
 
 .sqs-body-font {
@@ -14943,7 +14943,7 @@ div.sqs-block-opentable-v2 .squarespace-opentable-new-age-wrapper h1 {
     font-weight: var(--heading-font-font-weight);
     line-height: var(--heading-font-line-height);
     letter-spacing: var(--heading-font-letter-spacing);
-    /*text-transform: var(--heading-font-text-transform)*/
+    text-transform: none !important
 }
 
 @media screen and (max-width: 767px ) and (orientation: portrait) {
