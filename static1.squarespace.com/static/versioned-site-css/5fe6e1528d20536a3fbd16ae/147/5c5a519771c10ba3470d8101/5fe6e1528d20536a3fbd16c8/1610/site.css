@@ -3285,7 +3285,7 @@
     --course-list-chapter-item-chapter-name-font-font-family: var(--heading-font-font-family);
     --course-list-chapter-item-chapter-name-font-font-style: var(--heading-font-font-style);
     --course-list-chapter-item-chapter-name-font-font-weight: var(--heading-font-font-weight);
-    --course-list-chapter-item-chapter-name-font-text-transform: var(--heading-font-text-transform);
+    /*--course-list-chapter-item-chapter-name-font-text-transform: var(--heading-font-text-transform);*/
     --course-list-chapter-item-chapter-name-font-letter-spacing: var(--heading-font-letter-spacing);
     --course-list-chapter-item-chapter-name-font-line-height: var(--heading-font-line-height);
     --course-list-chapter-item-chapter-name-font-font-size: 2rem;
@@ -3293,7 +3293,7 @@
     --portfolio-item-pagination-font-font-family: var(--heading-font-font-family);
     --portfolio-item-pagination-font-font-style: var(--heading-font-font-style);
     --portfolio-item-pagination-font-font-weight: var(--heading-font-font-weight);
-    --portfolio-item-pagination-font-text-transform: var(--heading-font-text-transform);
+    /*--portfolio-item-pagination-font-text-transform: var(--heading-font-text-transform);*/
     --portfolio-item-pagination-font-letter-spacing: var(--heading-font-letter-spacing);
     --portfolio-item-pagination-font-line-height: var(--heading-font-line-height);
     --portfolio-item-pagination-font-font-size: var(--heading-4-size);
@@ -3309,7 +3309,7 @@
     --course-item-name-font-font-family: var(--heading-font-font-family);
     --course-item-name-font-font-style: var(--heading-font-font-style);
     --course-item-name-font-font-weight: var(--heading-font-font-weight);
-    --course-item-name-font-text-transform: var(--heading-font-text-transform);
+    /*--course-item-name-font-text-transform: var(--heading-font-text-transform);*/
     --course-item-name-font-letter-spacing: var(--heading-font-letter-spacing);
     --course-item-name-font-line-height: var(--heading-font-line-height);
     --course-item-name-font-font-size: 2rem;
@@ -3333,7 +3333,7 @@
     --blog-item-pagination-font-font-family: var(--heading-font-font-family);
     --blog-item-pagination-font-font-style: var(--heading-font-font-style);
     --blog-item-pagination-font-font-weight: var(--heading-font-font-weight);
-    --blog-item-pagination-font-text-transform: var(--heading-font-text-transform);
+    /*--blog-item-pagination-font-text-transform: var(--heading-font-text-transform);*/
     --blog-item-pagination-font-letter-spacing: var(--heading-font-letter-spacing);
     --blog-item-pagination-font-line-height: var(--heading-font-line-height);
     --blog-item-pagination-font-font-size: var(--heading-3-size);
@@ -3349,7 +3349,7 @@
     --product-basic-item-price-font-font-family: var(--heading-font-font-family);
     --product-basic-item-price-font-font-style: var(--heading-font-font-style);
     --product-basic-item-price-font-font-weight: var(--heading-font-font-weight);
-    --product-basic-item-price-font-text-transform: var(--heading-font-text-transform);
+    /*--product-basic-item-price-font-text-transform: var(--heading-font-text-transform);*/
     --product-basic-item-price-font-letter-spacing: var(--heading-font-letter-spacing);
     --product-basic-item-price-font-line-height: var(--heading-font-line-height);
     --product-basic-item-price-font-font-size: var(--heading-4-size);
@@ -3365,7 +3365,7 @@
     --portfolio-hover-follow-title-font-font-family: var(--heading-font-font-family);
     --portfolio-hover-follow-title-font-font-style: var(--heading-font-font-style);
     --portfolio-hover-follow-title-font-font-weight: var(--heading-font-font-weight);
-    --portfolio-hover-follow-title-font-text-transform: var(--heading-font-text-transform);
+    /*--portfolio-hover-follow-title-font-text-transform: var(--heading-font-text-transform);*/
     --portfolio-hover-follow-title-font-letter-spacing: var(--heading-font-letter-spacing);
     --portfolio-hover-follow-title-font-line-height: var(--heading-font-line-height);
     --portfolio-hover-follow-title-font-font-size: var(--heading-1-size);
@@ -3389,7 +3389,7 @@
     --video-item-pagination-font-font-family: var(--heading-font-font-family);
     --video-item-pagination-font-font-style: var(--heading-font-font-style);
     --video-item-pagination-font-font-weight: var(--heading-font-font-weight);
-    --video-item-pagination-font-text-transform: var(--heading-font-text-transform);
+    /*--video-item-pagination-font-text-transform: var(--heading-font-text-transform);*/
     --video-item-pagination-font-letter-spacing: var(--heading-font-letter-spacing);
     --video-item-pagination-font-line-height: var(--heading-font-line-height);
     --video-item-pagination-font-font-size: var(--heading-3-size);
@@ -3405,7 +3405,7 @@
     --product-grid-text-below-title-font-font-family: var(--heading-font-font-family);
     --product-grid-text-below-title-font-font-style: var(--heading-font-font-style);
     --product-grid-text-below-title-font-font-weight: var(--heading-font-font-weight);
-    --product-grid-text-below-title-font-text-transform: var(--heading-font-text-transform);
+    /*--product-grid-text-below-title-font-text-transform: var(--heading-font-text-transform);*/
     --product-grid-text-below-title-font-letter-spacing: var(--heading-font-letter-spacing);
     --product-grid-text-below-title-font-line-height: var(--heading-font-line-height);
     --product-grid-text-below-title-font-font-size: var(--heading-4-size);
@@ -3421,7 +3421,7 @@
     --newsletter-block-title-text-font-font-family: var(--heading-font-font-family);
     --newsletter-block-title-text-font-font-style: var(--heading-font-font-style);
     --newsletter-block-title-text-font-font-weight: var(--heading-font-font-weight);
-    --newsletter-block-title-text-font-text-transform: var(--heading-font-text-transform);
+    /*--newsletter-block-title-text-font-text-transform: var(--heading-font-text-transform);*/
     --newsletter-block-title-text-font-letter-spacing: var(--heading-font-letter-spacing);
     --newsletter-block-title-text-font-line-height: var(--heading-font-line-height);
     --newsletter-block-title-text-font-font-size: var(--heading-3-size);
@@ -3429,7 +3429,7 @@
     --course-item-side-nav-chapter-name-font-font-family: var(--heading-font-font-family);
     --course-item-side-nav-chapter-name-font-font-style: var(--heading-font-font-style);
     --course-item-side-nav-chapter-name-font-font-weight: var(--heading-font-font-weight);
-    --course-item-side-nav-chapter-name-font-text-transform: var(--heading-font-text-transform);
+    /*--course-item-side-nav-chapter-name-font-text-transform: var(--heading-font-text-transform);*/
     --course-item-side-nav-chapter-name-font-letter-spacing: var(--heading-font-letter-spacing);
     --course-item-side-nav-chapter-name-font-line-height: var(--heading-font-line-height);
     --course-item-side-nav-chapter-name-font-font-size: 1.5rem;
@@ -3461,7 +3461,7 @@
     --video-item-title-font-font-family: var(--heading-font-font-family);
     --video-item-title-font-font-style: var(--heading-font-font-style);
     --video-item-title-font-font-weight: var(--heading-font-font-weight);
-    --video-item-title-font-text-transform: var(--heading-font-text-transform);
+    /*--video-item-title-font-text-transform: var(--heading-font-text-transform);*/
     --video-item-title-font-letter-spacing: var(--heading-font-letter-spacing);
     --video-item-title-font-line-height: var(--heading-font-line-height);
     --video-item-title-font-font-size: var(--heading-2-size);
@@ -3517,7 +3517,7 @@
     --list-section-title-text-font-font-family: var(--heading-font-font-family);
     --list-section-title-text-font-font-style: var(--heading-font-font-style);
     --list-section-title-text-font-font-weight: var(--heading-font-font-weight);
-    --list-section-title-text-font-text-transform: var(--heading-font-text-transform);
+    /*--list-section-title-text-font-text-transform: var(--heading-font-text-transform);*/
     --list-section-title-text-font-letter-spacing: var(--heading-font-letter-spacing);
     --list-section-title-text-font-line-height: var(--heading-font-line-height);
     --list-section-title-text-font-font-size: var(--heading-2-size);
@@ -3525,7 +3525,7 @@
     --course-list-grid-layout-chapter-name-font-font-family: var(--heading-font-font-family);
     --course-list-grid-layout-chapter-name-font-font-style: var(--heading-font-font-style);
     --course-list-grid-layout-chapter-name-font-font-weight: var(--heading-font-font-weight);
-    --course-list-grid-layout-chapter-name-font-text-transform: var(--heading-font-text-transform);
+    /*--course-list-grid-layout-chapter-name-font-text-transform: var(--heading-font-text-transform);*/
     --course-list-grid-layout-chapter-name-font-letter-spacing: var(--heading-font-letter-spacing);
     --course-list-grid-layout-chapter-name-font-line-height: var(--heading-font-line-height);
     --course-list-grid-layout-chapter-name-font-font-size: 2rem;
@@ -3573,7 +3573,7 @@
     --course-item-lesson-name-font-font-family: var(--heading-font-font-family);
     --course-item-lesson-name-font-font-style: var(--heading-font-font-style);
     --course-item-lesson-name-font-font-weight: var(--heading-font-font-weight);
-    --course-item-lesson-name-font-text-transform: var(--heading-font-text-transform);
+    /*--course-item-lesson-name-font-text-transform: var(--heading-font-text-transform);*/
     --course-item-lesson-name-font-letter-spacing: var(--heading-font-letter-spacing);
     --course-item-lesson-name-font-line-height: var(--heading-font-line-height);
     --course-item-lesson-name-font-font-size: 4rem;
@@ -3621,7 +3621,7 @@
     --blog-grid-masonry-list-title-font-font-family: var(--heading-font-font-family);
     --blog-grid-masonry-list-title-font-font-style: var(--heading-font-font-style);
     --blog-grid-masonry-list-title-font-font-weight: var(--heading-font-font-weight);
-    --blog-grid-masonry-list-title-font-text-transform: var(--heading-font-text-transform);
+    /*--blog-grid-masonry-list-title-font-text-transform: var(--heading-font-text-transform);*/
     --blog-grid-masonry-list-title-font-letter-spacing: var(--heading-font-letter-spacing);
     --blog-grid-masonry-list-title-font-line-height: var(--heading-font-line-height);
     --blog-grid-masonry-list-title-font-font-size: var(--heading-3-size);
@@ -3629,7 +3629,7 @@
     --events-item-pagination-font-font-family: var(--heading-font-font-family);
     --events-item-pagination-font-font-style: var(--heading-font-font-style);
     --events-item-pagination-font-font-weight: var(--heading-font-font-weight);
-    --events-item-pagination-font-text-transform: var(--heading-font-text-transform);
+    /*--events-item-pagination-font-text-transform: var(--heading-font-text-transform);*/
     --events-item-pagination-font-letter-spacing: var(--heading-font-letter-spacing);
     --events-item-pagination-font-line-height: var(--heading-font-line-height);
     --events-item-pagination-font-font-size: var(--heading-3-size);
@@ -3693,7 +3693,7 @@
     --mobile-site-title-font-font-family: var(--heading-font-font-family);
     --mobile-site-title-font-font-style: var(--heading-font-font-style);
     --mobile-site-title-font-font-weight: var(--heading-font-font-weight);
-    --mobile-site-title-font-text-transform: var(--heading-font-text-transform);
+    /*--mobile-site-title-font-text-transform: var(--heading-font-text-transform);*/
     --mobile-site-title-font-letter-spacing: var(--heading-font-letter-spacing);
     --mobile-site-title-font-line-height: var(--heading-font-line-height);
     --mobile-site-title-font-font-size: var(--normal-text-size);
@@ -3701,7 +3701,7 @@
     --portfolio-index-background-title-font-font-family: var(--heading-font-font-family);
     --portfolio-index-background-title-font-font-style: var(--heading-font-font-style);
     --portfolio-index-background-title-font-font-weight: var(--heading-font-font-weight);
-    --portfolio-index-background-title-font-text-transform: var(--heading-font-text-transform);
+    /*--portfolio-index-background-title-font-text-transform: var(--heading-font-text-transform);*/
     --portfolio-index-background-title-font-letter-spacing: var(--heading-font-letter-spacing);
     --portfolio-index-background-title-font-line-height: var(--heading-font-line-height);
     --portfolio-index-background-title-font-font-size: var(--heading-1-size);
@@ -3733,7 +3733,7 @@
     --blog-single-column-list-title-font-font-family: var(--heading-font-font-family);
     --blog-single-column-list-title-font-font-style: var(--heading-font-font-style);
     --blog-single-column-list-title-font-font-weight: var(--heading-font-font-weight);
-    --blog-single-column-list-title-font-text-transform: var(--heading-font-text-transform);
+    /*--blog-single-column-list-title-font-text-transform: var(--heading-font-text-transform);*/
     --blog-single-column-list-title-font-letter-spacing: var(--heading-font-letter-spacing);
     --blog-single-column-list-title-font-line-height: var(--heading-font-line-height);
     --blog-single-column-list-title-font-font-size: var(--heading-1-size);
@@ -3749,7 +3749,7 @@
     --course-list-course-name-font-font-family: var(--heading-font-font-family);
     --course-list-course-name-font-font-style: var(--heading-font-font-style);
     --course-list-course-name-font-font-weight: var(--heading-font-font-weight);
-    --course-list-course-name-font-text-transform: var(--heading-font-text-transform);
+    /*--course-list-course-name-font-text-transform: var(--heading-font-text-transform);*/
     --course-list-course-name-font-letter-spacing: var(--heading-font-letter-spacing);
     --course-list-course-name-font-line-height: var(--heading-font-line-height);
     --course-list-course-name-font-font-size: var(--heading-1-size);
@@ -3757,7 +3757,7 @@
     --menu-block-item-title-font-font-family: var(--heading-font-font-family);
     --menu-block-item-title-font-font-style: var(--heading-font-font-style);
     --menu-block-item-title-font-font-weight: var(--heading-font-font-weight);
-    --menu-block-item-title-font-text-transform: var(--heading-font-text-transform);
+    /*--menu-block-item-title-font-text-transform: var(--heading-font-text-transform);*/
     --menu-block-item-title-font-letter-spacing: var(--heading-font-letter-spacing);
     --menu-block-item-title-font-line-height: var(--heading-font-line-height);
     --menu-block-item-title-font-font-size: var(--heading-4-size);
@@ -3773,7 +3773,7 @@
     --course-item-name-mobile-font-font-family: var(--heading-font-font-family);
     --course-item-name-mobile-font-font-style: var(--heading-font-font-style);
     --course-item-name-mobile-font-font-weight: var(--heading-font-font-weight);
-    --course-item-name-mobile-font-text-transform: var(--heading-font-text-transform);
+    /*--course-item-name-mobile-font-text-transform: var(--heading-font-text-transform);*/
     --course-item-name-mobile-font-letter-spacing: var(--heading-font-letter-spacing);
     --course-item-name-mobile-font-line-height: var(--heading-font-line-height);
     --course-item-name-mobile-font-font-size: 1.3rem;
@@ -3797,7 +3797,7 @@
     --video-basic-grid-list-title-font-font-family: var(--heading-font-font-family);
     --video-basic-grid-list-title-font-font-style: var(--heading-font-font-style);
     --video-basic-grid-list-title-font-font-weight: var(--heading-font-font-weight);
-    --video-basic-grid-list-title-font-text-transform: var(--heading-font-text-transform);
+    /*--video-basic-grid-list-title-font-text-transform: var(--heading-font-text-transform);*/
     --video-basic-grid-list-title-font-letter-spacing: var(--heading-font-letter-spacing);
     --video-basic-grid-list-title-font-line-height: var(--heading-font-line-height);
     --video-basic-grid-list-title-font-font-size: var(--heading-4-size);
@@ -3805,7 +3805,7 @@
     --course-list-grid-layout-course-item-name-font-font-family: var(--heading-font-font-family);
     --course-list-grid-layout-course-item-name-font-font-style: var(--heading-font-font-style);
     --course-list-grid-layout-course-item-name-font-font-weight: var(--heading-font-font-weight);
-    --course-list-grid-layout-course-item-name-font-text-transform: var(--heading-font-text-transform);
+    /*--course-list-grid-layout-course-item-name-font-text-transform: var(--heading-font-text-transform);*/
     --course-list-grid-layout-course-item-name-font-letter-spacing: var(--heading-font-letter-spacing);
     --course-list-grid-layout-course-item-name-font-line-height: var(--heading-font-line-height);
     --course-list-grid-layout-course-item-name-font-font-size: 1.125rem;
@@ -3845,7 +3845,7 @@
     --portfolio-hover-static-title-font-font-family: var(--heading-font-font-family);
     --portfolio-hover-static-title-font-font-style: var(--heading-font-font-style);
     --portfolio-hover-static-title-font-font-weight: var(--heading-font-font-weight);
-    --portfolio-hover-static-title-font-text-transform: var(--heading-font-text-transform);
+    /*--portfolio-hover-static-title-font-text-transform: var(--heading-font-text-transform);*/
     --portfolio-hover-static-title-font-letter-spacing: var(--heading-font-letter-spacing);
     --portfolio-hover-static-title-font-line-height: var(--heading-font-line-height);
     --portfolio-hover-static-title-font-font-size: var(--heading-1-size);
@@ -3861,7 +3861,7 @@
     --blog-side-by-side-list-title-font-font-family: var(--heading-font-font-family);
     --blog-side-by-side-list-title-font-font-style: var(--heading-font-font-style);
     --blog-side-by-side-list-title-font-font-weight: var(--heading-font-font-weight);
-    --blog-side-by-side-list-title-font-text-transform: var(--heading-font-text-transform);
+    /*--blog-side-by-side-list-title-font-text-transform: var(--heading-font-text-transform);*/
     --blog-side-by-side-list-title-font-letter-spacing: var(--heading-font-letter-spacing);
     --blog-side-by-side-list-title-font-line-height: var(--heading-font-line-height);
     --blog-side-by-side-list-title-font-font-size: var(--heading-2-size);
@@ -3925,7 +3925,7 @@
     --blog-item-title-font-font-family: var(--heading-font-font-family);
     --blog-item-title-font-font-style: var(--heading-font-font-style);
     --blog-item-title-font-font-weight: var(--heading-font-font-weight);
-    --blog-item-title-font-text-transform: var(--heading-font-text-transform);
+    /*--blog-item-title-font-text-transform: var(--heading-font-text-transform);*/
     --blog-item-title-font-letter-spacing: var(--heading-font-letter-spacing);
     --blog-item-title-font-line-height: var(--heading-font-line-height);
     --blog-item-title-font-font-size: var(--heading-1-size);
@@ -3965,7 +3965,7 @@
     --blog-basic-grid-list-title-font-font-family: var(--heading-font-font-family);
     --blog-basic-grid-list-title-font-font-style: var(--heading-font-font-style);
     --blog-basic-grid-list-title-font-font-weight: var(--heading-font-font-weight);
-    --blog-basic-grid-list-title-font-text-transform: var(--heading-font-text-transform);
+    /*--blog-basic-grid-list-title-font-text-transform: var(--heading-font-text-transform);*/
     --blog-basic-grid-list-title-font-letter-spacing: var(--heading-font-letter-spacing);
     --blog-basic-grid-list-title-font-line-height: var(--heading-font-line-height);
     --blog-basic-grid-list-title-font-font-size: var(--heading-3-size);
@@ -3997,7 +3997,7 @@
     --portfolio-grid-overlay-title-font-font-family: var(--heading-font-font-family);
     --portfolio-grid-overlay-title-font-font-style: var(--heading-font-font-style);
     --portfolio-grid-overlay-title-font-font-weight: var(--heading-font-font-weight);
-    --portfolio-grid-overlay-title-font-text-transform: var(--heading-font-text-transform);
+    /*--portfolio-grid-overlay-title-font-text-transform: var(--heading-font-text-transform);*/
     --portfolio-grid-overlay-title-font-letter-spacing: var(--heading-font-letter-spacing);
     --portfolio-grid-overlay-title-font-line-height: var(--heading-font-line-height);
     --portfolio-grid-overlay-title-font-font-size: var(--heading-3-size);
@@ -4021,7 +4021,7 @@
     --product-basic-item-title-font-font-family: var(--heading-font-font-family);
     --product-basic-item-title-font-font-style: var(--heading-font-font-style);
     --product-basic-item-title-font-font-weight: var(--heading-font-font-weight);
-    --product-basic-item-title-font-text-transform: var(--heading-font-text-transform);
+    /*--product-basic-item-title-font-text-transform: var(--heading-font-text-transform);*/
     --product-basic-item-title-font-letter-spacing: var(--heading-font-letter-spacing);
     --product-basic-item-title-font-line-height: var(--heading-font-line-height);
     --product-basic-item-title-font-font-size: var(--heading-2-size);
@@ -4029,7 +4029,7 @@
     --menu-block-title-font-font-family: var(--heading-font-font-family);
     --menu-block-title-font-font-style: var(--heading-font-font-style);
     --menu-block-title-font-font-weight: var(--heading-font-font-weight);
-    --menu-block-title-font-text-transform: var(--heading-font-text-transform);
+    /*--menu-block-title-font-text-transform: var(--heading-font-text-transform);*/
     --menu-block-title-font-letter-spacing: var(--heading-font-letter-spacing);
     --menu-block-title-font-line-height: var(--heading-font-line-height);
     --menu-block-title-font-font-size: var(--heading-3-size);
