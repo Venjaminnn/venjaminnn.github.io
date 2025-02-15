@@ -3277,7 +3277,7 @@
     --blog-alternating-side-by-side-list-title-font-font-family: var(--heading-font-font-family);
     --blog-alternating-side-by-side-list-title-font-font-style: var(--heading-font-font-style);
     --blog-alternating-side-by-side-list-title-font-font-weight: var(--heading-font-font-weight);
-    /--blog-alternating-side-by-side-list-title-font-text-transform: var(--heading-font-text-transform);*/
+    /*--blog-alternating-side-by-side-list-title-font-text-transform: var(--heading-font-text-transform);*/
     --blog-alternating-side-by-side-list-title-font-letter-spacing: var(--heading-font-letter-spacing);
     --blog-alternating-side-by-side-list-title-font-line-height: var(--heading-font-line-height);
     --blog-alternating-side-by-side-list-title-font-font-size: var(--heading-2-size);
@@ -3829,7 +3829,7 @@
     --site-title-font-font-family: var(--heading-font-font-family);
     --site-title-font-font-style: var(--heading-font-font-style);
     --site-title-font-font-weight: var(--heading-font-font-weight);
-    --site-title-font-text-transform: var(--heading-font-text-transform);
+    /*--site-title-font-text-transform: var(--heading-font-text-transform);*/
     --site-title-font-letter-spacing: var(--heading-font-letter-spacing);
     --site-title-font-line-height: var(--heading-font-line-height);
     --site-title-font-font-size: 1.2rem;
@@ -12819,7 +12819,7 @@ h1,h2,h3,h4 {
     font-weight: var(--heading-font-font-weight);
     line-height: var(--heading-font-line-height);
     letter-spacing: var(--heading-font-letter-spacing);
-    text-transform: var(--heading-font-text-transform)
+    /*text-transform: var(--heading-font-text-transform)*/
 }
 
 .sqs-body-font {
@@ -14775,7 +14775,7 @@ h4 {
     font-weight: var(--heading-font-font-weight);
     line-height: var(--heading-font-line-height);
     letter-spacing: var(--heading-font-letter-spacing);
-    text-transform: var(--heading-font-text-transform);
+    /*text-transform: var(--heading-font-text-transform);*/
     line-height: calc(var(--heading-font-line-height) * (1 + (1 - var(--heading-3-size-value))/25))
 }
 
@@ -15006,7 +15006,7 @@ div.sqs-block-opentable-v2 .squarespace-opentable-new-age-wrapper h1 {
     font-weight: var(--heading-font-font-weight);
     line-height: var(--heading-font-line-height);
     letter-spacing: var(--heading-font-letter-spacing);
-    text-transform: var(--heading-font-text-transform)
+    /*text-transform: var(--heading-font-text-transform)*/
 }
 
 @media screen and (max-width: 767px ) and (orientation: portrait) {
