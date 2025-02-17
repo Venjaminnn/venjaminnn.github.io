@@ -1367,7 +1367,7 @@
     c.nmd = e => (e.paths = [],
     e.children || (e.children = []),
     e),
-    /*c.p = "https://assets.squarespace.com/universal/scripts-compressed/"*/,
+    c.p = "https://assets.squarespace.com/universal/scripts-compressed/",
     ( () => {
         var e = (s, f, d, i) => {
             var b = document.createElement("link");
