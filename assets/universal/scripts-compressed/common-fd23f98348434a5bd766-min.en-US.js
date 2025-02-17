@@ -78707,7 +78707,7 @@ M`).concat(ae, ",").concat(Math.max(H, N), `
         "use strict";
         s.Z = {
             CLOSED_DATE: "date-closed",
-            KEY: "squarespace-popup-overlay",
+            /*KEY: "squarespace-popup-overlay",*/
             VERSION: "version",
             SUBMITTED: "submitted"
         }
@@ -81928,7 +81928,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             return function (ge, Le) {
                 return pe.apply(this, arguments)
             }
-        }(), An = ["media-www.sqspcdn.com", "images.squarespace-cdn.com", "static1.squarespace.com"], Pn = function (pe) {
+        }(), /*An = ["media-www.sqspcdn.com", "images.squarespace-cdn.com", "static1.squarespace.com"],*/ Pn = function (pe) {
             return An.some(function (de) {
                 return pe.includes(de)
             })
@@ -82361,7 +82361,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             , cl = function () {
                 var pe = /^qa\d+.sqsp.net/g
                     , de = /^stage.sqsp.net/g
-                    , ge = /(dev.squarespace.net|localhost|127.0.0.1|0.0.0.0)/g
+                    /*, ge = /(dev.squarespace.net|localhost|127.0.0.1|0.0.0.0)/g*/
                     , Le = window.location.hostname.substr(window.location.hostname.indexOf(".") + 1);
                 return de.test(Le) || pe.test(Le) ? "staging" : ge.test(Le) ? "dev" : "prod"
             }
