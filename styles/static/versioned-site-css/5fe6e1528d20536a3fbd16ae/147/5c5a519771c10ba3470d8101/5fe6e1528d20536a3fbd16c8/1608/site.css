@@ -4114,7 +4114,8 @@ a:active,a:hover {
 
 h1 {
     font-size: 2em;
-    margin: .67em 0
+    margin: .67em 0;
+    text-transform: none !important
 }
 
 abbr[title] {
@@ -7776,7 +7777,8 @@ body.squarespace-config .sqs-block-image .sqs-image-caption .sqs-html-content {
 .yui3-lightbox2 .sqs-lightbox-meta h1 {
     font-size: 1em;
     color: #fff;
-    margin: 0 0 10px
+    margin: 0 0 10px;
+    text-transform: none !important
 }
 
 .yui3-lightbox2 .sqs-lightbox-meta p a {
@@ -11402,7 +11404,8 @@ html.sqs-modal-lightbox-open,html.sqs-modal-lightbox-open body {
 
 h1[data-rte-preserve-empty]:empty::before,h2[data-rte-preserve-empty]:empty::before,h3[data-rte-preserve-empty]:empty::before,h4[data-rte-preserve-empty]:empty::before,h5[data-rte-preserve-empty]:empty::before,h6[data-rte-preserve-empty]:empty::before,p[data-rte-preserve-empty]:empty::before {
     content: '';
-    display: inline-block
+    display: inline-block;
+    text-transform: none !important
 }
 
 ol[data-rte-list] li {
@@ -12558,7 +12561,8 @@ body:not(.tweak-product-quick-view-lightbox-show-close-button) .sqs-product-quic
 }
 
 h1,h2,h3,h4 {
-    margin: 2rem 0
+    margin: 2rem 0;
+    text-transform: none !important
 }
 
 .sqsrte-large,p,.sqsrte-small {
@@ -12864,7 +12868,8 @@ h1,h2,h3,h4 {
 }
 
 h1 {
-    line-height: calc(var(--heading-font-line-height) * (1 + (1 - var(--heading-1-size-value))/25))
+    line-height: calc(var(--heading-font-line-height) * (1 + (1 - var(--heading-1-size-value))/25));
+    text-transform: none !important
 }
 
 @media screen and (max-width: 767px ) and (orientation: portrait) {
@@ -12962,6 +12967,7 @@ h4 {
     line-height: var(--meta-font-line-height);
     letter-spacing: var(--meta-font-letter-spacing);
     /*text-transform: var(--meta-font-text-transform)*/
+    text-transform: none !important
 }
 
 @media screen and (max-width: 767px ) and (orientation: portrait) {
